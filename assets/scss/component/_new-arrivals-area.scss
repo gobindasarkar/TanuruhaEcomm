@@ -1,0 +1,74 @@
+/*===============================
+#.new-arrivals-area
+=================================*/
+.new-arrivals-area {
+    .nav-tabs {
+        justify-content: center;
+        border: none;
+        flex-flow: row wrap;
+        grid-column-gap: 2rem;
+        grid-row-gap: 1rem;
+        margin-bottom: 2.5rem;
+        .nav-link {
+            margin: 0;
+            padding: 0;
+            border: none;
+            font-family: $titleFont;
+            font-size: 2.6rem;
+            text-transform: uppercase;
+            color: #060606;
+            transition: $transition;
+            &:hover {
+                color: var(--hover-color);
+            }
+            &.active {
+                color: var(--primary-color);
+            }
+        }
+    }
+}
+.slick-arrow {
+    @include flex-position(flex, center, center);
+    position: absolute;
+    width: 4.6rem;
+    height: 4.6rem;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: var(--white);
+    transition: $transition;
+    z-index: 1;
+    cursor: pointer;
+    top: -7rem;
+    &.slick-next {
+        right: 0;
+    }
+    &.slick-prev {
+        right: 6rem;
+    }
+    &:hover {
+        color: var(--white);
+        background-color: var(--hover-color);
+    }
+}
+@media (max-width: 1700px) {
+    .slick-arrow {
+        top: 50%;
+        transform: translateY(-50%);
+        &.slick-next {
+            right: 1rem;
+        }
+        &.slick-prev {
+            left: 1rem;
+        }
+    }
+}
+@media (max-width: 1399px) {
+    .new-arrivals-area .nav-tabs .nav-link {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 1199px) {
+    .new-arrivals-area .nav-tabs .nav-link {
+        font-size: 1.8rem;
+    }
+}

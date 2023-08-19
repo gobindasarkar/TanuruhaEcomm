@@ -1,0 +1,65 @@
+/*===============================
+#.hero-slider-area
+=================================*/
+.hero-slider-area {
+    .slider-inner {
+        display: flex;
+        align-items: flex-end;
+        height: 75rem;
+        padding: 12rem 0;
+        .slider-title {
+            font-family: $titleFont;
+            font-size: 4.8rem;
+            color: var(--white);
+            max-width: 56rem;
+        }
+    }
+}
+.slick-dots {
+    position: absolute;
+    bottom: 7rem;
+    left: 7rem;
+    li {
+        display: inline-block;
+        margin-right: 2rem;
+        &:last-child {
+            margin-right: 0;
+        }
+        button {
+            background-color: var(--white);
+            font-size: 0;
+            padding: 0;
+            width: 1.6rem;
+            height: 1.6rem;
+            border-radius: 50%;
+            border: none;
+        }
+        &.slick-active {
+            button {
+                background-color: var(--primary-color);
+            }
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .slick-dots {
+        left: 3rem;
+    }
+}
+@media (max-width: 991px) {
+    .slick-dots {
+        left: 1rem;
+    }
+}
+@media (max-width: 767px) {
+    .hero-slider-area .slider-inner .slider-title {
+        font-size: 3.2rem;
+    }
+    .hero-slider-area .slider-inner {
+        height: 50rem;
+        padding: 6rem 0;
+    }
+    .slick-dots {
+        bottom: 3rem;
+    }
+}

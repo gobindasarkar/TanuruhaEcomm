@@ -1,0 +1,41 @@
+/*===============================
+#.ethical-masterpieces-area
+=================================*/
+.ethical-masterpieces-area {
+    padding: 12rem 0;
+    h2 {
+        margin-bottom: 3.5rem;
+        font-size: 6rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: var(--color-1);
+    }
+    p {
+        font-size: 2rem;
+        line-height: 1.6;
+        color: var(--black);
+    }
+}
+@media (max-width: 1399px) {
+    .ethical-masterpieces-area h2 {
+        margin-bottom: 2.5rem;
+        font-size: 4rem;
+    }
+}
+@media (max-width: 991px) {
+    .ethical-masterpieces-area {
+        padding: 6rem 0;
+    }
+    .ethical-masterpieces-area h2 {
+        margin-bottom: 2.5rem;
+        font-size: 4rem;
+    }
+    .ethical-masterpieces-area p {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 767px) {
+    .ethical-masterpieces-area h2 {
+        font-size: 3.2rem;
+    }
+}

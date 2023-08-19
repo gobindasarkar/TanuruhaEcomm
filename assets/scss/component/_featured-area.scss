@@ -1,0 +1,34 @@
+/*===============================
+#.featured-area
+=================================*/
+.featured-area {
+    .single-featured {
+        .icon {
+            display: inline-block;
+            font-size: 5rem;
+            color: #070707;
+            margin-bottom: 2rem;
+        }
+        h3 {
+            font-family: $bodyFont;
+            font-size: 3rem;
+            font-weight: 600;
+            color: #070707;
+        }
+        p {
+            margin: 0;
+            font-size: 2rem;
+            color: #070707;
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .featured-area .single-featured h3 {
+        font-size: 2.6rem;
+    }
+}
+@media (max-width: 991px) {
+    .featured-area .single-featured .icon {
+        margin-bottom: 1rem;
+    }
+}

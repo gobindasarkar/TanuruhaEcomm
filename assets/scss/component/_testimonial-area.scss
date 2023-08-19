@@ -1,0 +1,52 @@
+/*===============================
+#.testimonial-area
+=================================*/
+.testimonial-area {
+    .single-testimonial {
+        .testimonial-review {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            grid-column-gap: 1rem;
+            color: #edc128;
+            margin-bottom: 2rem;
+        }
+        .testimonial-title {
+            margin-bottom: 2rem;
+            font-size: 2.4rem;
+            color: var(--color-1);
+        }
+        .textimonial-content {
+            font-size: 1.8rem;
+        }
+        .testimonial-author-info {
+            .testiminial-avatar {
+                @include flex-position(flex, center, center);
+                width: 5rem;
+                height: 5rem;
+                border-radius: 50%;
+                margin: 0 auto;
+                text-transform: capitalize;
+                overflow: hidden;
+                font-family: $bodyFont;
+                font-size: 2rem;
+                font-weight: 500;
+                text-transform: uppercase;
+                color: #8f8f8f;
+                margin-bottom: 1rem;
+                img {
+                    width: 5rem;
+                    height: 5rem;
+                    object-fit: cover;
+                }
+            }
+            .author-name {
+                font-family: $bodyFont;
+                font-size: 1.8rem;
+                font-weight: 500;
+                text-transform: uppercase;
+                color: var(--color-1);
+            }
+        }
+    }
+}

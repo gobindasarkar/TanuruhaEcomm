@@ -1,0 +1,57 @@
+/*
+------------- Table of content ----------------
+
+Template Name: Tanuruha Ecomm  Responsive  HTML5 Template
+Template URI: https://tanuruha-ecomm.com/
+Description: Tanuruha Ecomm  Responsive  HTML5 Template
+Author: Gobinda Sarkar
+Author URI: https://tanuruha-ecomm.com/
+Version: 1.0
+
+---------------------- common content ----------
+1.body reset content
+#.header-area
+#.footer-area
+#.hero-slider-area
+#.ethical-masterpieces-area
+#.exquisite-handicrafts-area
+#.image-text-area
+#.new-arrivals-area
+#.section-top-area
+#.single-product
+#.call-to-action
+#.featured-area
+#.testimonial-area
+
+
+
+
+*/
+
+/*===============================
+#.testimonial-area
+=================================*/
+
+// variable
+@import "variable/_variable.scss";
+
+// mixin
+@import "mixin/_mixin.scss";
+
+// body reset content
+@import "reset/_predefine.scss";
+
+// component content
+@import "component/header.scss";
+@import "component/footer.scss";
+@import "component/hero-slider-area";
+@import "component/ethical-masterpieces-area";
+@import "component/exquisite-handicrafts-area";
+@import "component/image-text-area";
+@import "component/new-arrivals-area";
+@import "component/section-top-area";
+@import "component/single-product";
+@import "component/call-to-action";
+@import "component/featured-area";
+@import "component/testimonial-area";
+
