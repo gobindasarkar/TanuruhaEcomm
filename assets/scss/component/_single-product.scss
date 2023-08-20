@@ -67,6 +67,7 @@
             text-align: right;
             .old-price {
                 margin: 0;
+                font-family: $MontserratFont;
                 font-size: 1.8rem;
                 font-weight: 700;
                 color: #6f7789;
@@ -74,6 +75,7 @@
             }
             .current-price {
                 margin: 0;
+                font-family: $MontserratFont;
                 font-size: 2.4rem;
                 line-height: 1;
                 font-weight: 700;

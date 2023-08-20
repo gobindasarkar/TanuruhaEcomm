@@ -36,6 +36,7 @@
     .copyright-area {
       p {
         margin: 0;
+        font-family: $ArialFont;
         font-size: 2rem;
         color: #2c2c2c;
 
@@ -91,6 +92,7 @@
       a {
         font-family: $bodyFont;
         font-size: 1.8rem;
+        font-weight: 600;
         color: var(--bColor);
         text-transform: capitalize;
         transition: $transition;

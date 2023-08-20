@@ -58,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Noto Serif Georgian", serif;
+  font-family: "Georgia", serif;
 }
 
 iframe {
@@ -292,6 +292,7 @@ primary-btn
   padding: 1.5rem 4rem;
   background-color: var(--color-1);
   color: var(--white);
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -647,6 +648,7 @@ scrollUp
 }
 .footer-area .footer-bottom .copyright-area p {
   margin: 0;
+  font-family: "Arial";
   font-size: 2rem;
   color: #2c2c2c;
 }
@@ -688,6 +690,7 @@ scrollUp
 .menu-widget ul li a {
   font-family: "Lato", sans-serif;
   font-size: 1.8rem;
+  font-weight: 600;
   color: var(--bColor);
   text-transform: capitalize;
   transition: all 0.5s linear;
@@ -715,7 +718,7 @@ scrollUp
   padding: 12rem 0;
 }
 .hero-slider-area .slider-inner .slider-title {
-  font-family: "Noto Serif Georgian", serif;
+  font-family: "Anglecia Pro Dsp";
   font-size: 4.8rem;
   color: var(--white);
   max-width: 56rem;
@@ -776,6 +779,7 @@ scrollUp
 }
 .ethical-masterpieces-area h2 {
   margin-bottom: 3.5rem;
+  font-family: "Cormorant Garamond", serif;
   font-size: 6rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -815,13 +819,14 @@ scrollUp
 =================================*/
 .exquisite-handicrafts-area h2 {
   margin-bottom: 3.5rem;
+  font-family: "Cormorant Garamond", serif;
   font-size: 6rem;
   font-weight: 500;
   text-transform: uppercase;
   color: var(--color-1);
 }
 .exquisite-handicrafts-area p {
-  font-family: "Noto Serif Georgian", serif;
+  font-family: "Adobe Garamond Pro Regular";
   font-size: 2rem;
   line-height: 1.6;
   color: var(--black);
@@ -889,7 +894,7 @@ scrollUp
   margin: 0;
   padding: 0;
   border: none;
-  font-family: "Noto Serif Georgian", serif;
+  font-family: "Georgia", serif;
   font-size: 2.6rem;
   text-transform: uppercase;
   color: #060606;
@@ -956,6 +961,7 @@ scrollUp
 =================================*/
 .section-top-area .title {
   margin: 0;
+  font-family: "Cormorant Garamond", serif;
   font-size: 4.8rem;
   text-transform: uppercase;
   color: var(--primary-color);
@@ -1047,6 +1053,7 @@ scrollUp
 }
 .single-product .product-info .price-area .old-price {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   color: #6f7789;
@@ -1054,6 +1061,7 @@ scrollUp
 }
 .single-product .product-info .price-area .current-price {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.4rem;
   line-height: 1;
   font-weight: 700;
@@ -1125,6 +1133,7 @@ scrollUp
 }
 .call-to-action h2 {
   margin-bottom: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
   font-size: 4.8rem;
   text-transform: uppercase;
   color: var(--color-1);
@@ -1132,6 +1141,10 @@ scrollUp
 .call-to-action p {
   font-size: 2.4rem;
   color: var(--black);
+}
+.call-to-action .call-action-wrap {
+  max-width: 640px;
+  margin-left: auto;
 }
 
 @media (max-width: 1199px) {
